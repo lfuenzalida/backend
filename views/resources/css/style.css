@@ -1,5 +1,4 @@
-{% load static %}
 body {
-    background-image: url({% static "img/fondo.jpg" %});
+    background-image: url(../img/FONDO.jpg);
     background-repeat: no-repeat;
 }

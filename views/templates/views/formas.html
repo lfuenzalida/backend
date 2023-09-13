@@ -1,0 +1,24 @@
+{% extends 'base/master.html' %}
+{% load static %}
+{% block title %}Formas{% endblock title %}
+
+{% block content %}
+<h1>Formas de paldea</h1> 
+
+<div class="card-group">
+  <div class="card bg-info-subtle">
+    <img src="{% static "/img/wooper_de_paldea.png" %}" class="card-img-top" alt="Wooper de paldea">
+    <div class="card-body bg-info">
+      <h5 class="card-title">Wooper de paldea</h5>
+      <p class="card-text">En la antigüedad, Wooper solía vivir en las aguas de la región de Paldea. Pero tras perder una disputa territorial, se vio forzado a vivir en tierra firme.​​ Para sobrevivir en este nuevo entorno, desarrolló una membrana mucosa tóxica con la que proteger su cuerpo</p>
+    </div>
+  </div>
+  <div class="card bg-secondary-subtle text-light">
+    <img src="{% static "/img/tauros_de_paldea.png" %}" class="card-img-top" alt="Tauros de Paldea">
+    <div class="card-body bg-secondary">
+      <h5 class="card-title">Tauros de Paldea</h5>
+      <p class="card-text">Es una forma del tauros de la region kanto, en esta region tiene la diferencia que posee mas de una variedad, las cuales son: Combatiente(lucha), Ardiente(lucha/fuego) y Acuática(lucha/agua) .</p>
+    </div>
+  </div>
+</div>
+{% endblock  %}

@@ -1,0 +1,36 @@
+{% extends 'base/master.html' %}
+{% load static %}
+{% block title %}Genocidio{% endblock title %}
+
+{% block content %}
+<h1>Pokemones Iniciales</h1> 
+
+<div class="card-group">
+  <div class="card text-bg-success">
+    <img src="{% static "/img/sprigatito.png" %}" class="card-img-top" alt="Sprigatito">
+    <div class="card-body">
+      <h5 class="card-title">Sprigatito</h5>
+      <p class="card-text">Sprigatito es el inicial tipo Planta de Pokémon Escarlata y Púrpura. Está inspirado en un gato y su nombre proviene de la palabra inglesa sprig (ramita) y la palabra española gatito.
+      </p>
+    </div>
+  </div>
+  <div class="card text-bg-danger">
+    <img src="{% static "/img/fuecoco.png" %}" class="card-img-top" alt="Fuecoco">
+    <div class="card-body">
+      <h5 class="card-title">Fuecoco</h5>
+      <p class="card-text">Fuecoco es el inicial tipo Fuego de Pokémon Escarlata y Púrpura. Está inspirado en un cocodrilo y su nombre proviene de las palabras españolas fuego y cocodrilo.
+      </p>
+    </div>
+  </div>
+  <div class="card text-bg-primary">
+    <img src="{% static "/img/quaxly.png" %}" class="card-img-top" alt="Quaxly">
+    <div class="card-body">
+      <h5 class="card-title">Quaxly</h5>
+      <p class="card-text">Quaxly es el inicial tipo Agua de Pokémon Escarlata y Púrpura. Está inspirado en un pato y su nombre proviene de la onomatopeya del sonido que hacen los patos (cuac), y de las palabras inglesas hair wax (cera capilar) y duckling (cría de pato).
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock  %}
+

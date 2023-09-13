@@ -1,0 +1,29 @@
+{% extends 'base/master.html' %}
+{% load static %}
+
+{% block title %}Paradox{% endblock title %}
+
+{% block content %}
+<h1>Pokemón Paradox</h1>
+
+<div class="row row-cols-1 row-cols-md-1 g-2">
+    <div class="col">
+      <div class="card">
+        <img src="{% static "/img/paradox_pasado.jpg" %}" class="card-img-top" alt="Paradox Pasado">
+        <div class="card-body">
+          <h5 class="card-title">Paradox Pasado</h5>
+          <p class="card-text">Los Pokémon primitivos parecen ser versiones más antiguas o prehistóricas de algunos Pokémon conocidos, pero son mucho más grandes y violentos. Por ejemplo, Colmilargo parece ser una versión primitiva del Donphan contemporáneo, salvo por su salvaje aspecto con colmillos más grandes y escamas más duras. Estas criaturas son descritas en el Libro Escarlata, la famosa obra de culto en Paldea, donde se especula que puedan provenir de una época muy lejana. Este grupo incluye al Pokémon legendario Koraidon, conocido como Reyalado.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="{% static "/img/paradox_futuro.jpg" %}" class="card-img-top" alt="Paradox Futuro">
+        <div class="card-body">
+          <h5 class="card-title">Paradox Futuro</h5>
+          <p class="card-text">Los Pokémon futuristas parecen tener apariencias similares a algunos Pokémon contemporáneos, pero se rumorea que provienen de un futuro muy lejano. Algunos de los Pokémon futuristas, como Ferrodada o Ferropolilla, son descritos como posibles artefactos alienígenas, mientras que otros, como Ferropalmas, Ferropaladín o Ferrocuello, son mencionados como cíborgs, robots, o híbridos de Pokémon y máquina. Estas criaturas son reseñadas en el Libro Púrpura, donde se describen con un tono especulativo y fantástico, debido al carácter misterioso y desconocido de estos Pokémon. En este grupo se incluye al Pokémon legendario Miraidon, conocido como Ferromandra.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock  %}

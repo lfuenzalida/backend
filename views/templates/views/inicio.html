@@ -1,20 +1,24 @@
-
-{% extends 'base/master.html' %}
-{% load static %}
-{% block title %}inicio{% endblock title %}inicio
+{% extends 'base/master.html' %} 
+{% load static %} 
+{% block title%}Bienvenidos a Paldea{%endblock title %} 
 
 {% block content %}
-<h1> INICIO </h1>
 
-<div class="card mb-3 text-bg-dark opacity-50">
-    <img src="{% static '' %}" class="card-img-top" alt="start card">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
+<h1 class='text-primary text-center'>Bienvenidos a Paldea</h1>
+
+<div class="card mb-3 mt-4 text-bg-primary opacity-75">
+  <img
+    src="{% static '/img/inicio.jpg' %}"
+    class="card-img-top"
+    alt="start card"
+  />
+  <div class="card-body">
+    <h5 class="card-title">Mapa de Paldea</h5>
+    <p class="card-text">
+      La región de Paldea en el juego de Pokémon Escarlata y Purpura es un lugar mágico y diverso, donde los jugadores exploran paisajes escarlata y purpura. Desde las majestuosas montañas escarlata hasta los exuberantes bosques purpura, esta región ofrece una experiencia emocionante llena de desafíos, criaturas Pokémon únicas y una rica cultura Pokémon para descubrir. Los entrenadores viajan por Paldea en busca de aventuras y batallas, mientras descubren secretos y forjan vínculos con sus Pokémon en este emocionante mundo virtual.
+    </p>
+   
   </div>
+</div>
 
-{% endblock  %}
-
-
+{% endblock %}

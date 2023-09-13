@@ -1,0 +1,85 @@
+{% extends 'base/master.html' %}
+{% load static %}
+{% block title %}Legendarios{% endblock title %}
+
+{% block content %}
+<h1>Legendarios de Paldea</h1> 
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="{% static "/img/koraidon.png" %}" class="d-block w-100" alt="Koraidon">
+        <div class="carousel-caption d-none d-md-block">
+          <div class = "card-text bg-dark text-light opacity-75">
+          <h5>Koraidon</h5>
+            <p>Su nombre en todos los idiomas proviene de la palabra japonesa 古来 korai (antiguo), de la palabra inglesa ride (montura) y del sufijo -don (diente), empleado para nombrar a muchas especies de dinosaurio.</p>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="{% static "/img/miraidon.png" %}" class="d-block w-100" alt="Miraidon">
+        <div class="carousel-caption d-none d-md-block">
+        <div class = "card-text bg-dark text-light opacity-75">
+          <h5>Miraidon</h5>
+            <p>Su nombre en todos los idiomas proviene de la palabra japonesa 未来 mirai (futuro), de la palabra inglesa ride (montura) y del sufijo -don (diente), empleado para nombrar a muchas especies de dinosaurio.</p>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static "/img/ting-lu.png" %}" class="d-block w-100" alt="Ting-Lu">
+        <div class="carousel-caption d-none d-md-block">
+          <div class = "card-text bg-dark text-light opacity-75">
+            <h5>Ting-Lu</h5>
+              <p>Su nombre proviene de las palabras chinas 鼎 dǐng (caldero de origen chino), 鹿 lù (ciervo) y 驼鹿 tuólù (alce).</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static "/img/chien-pao.png" %}" class="d-block w-100" alt="Chien-Pao">
+        <div class="carousel-caption d-none d-md-block">
+          <div class = "card-text bg-dark text-light opacity-75">
+            <h5>Chien-Pao</h5>
+              <p>Su nombre proviene de las palabras chinas 剑 jiàn (espada) y 豹 bào (leopardo).</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static "/img/wo-chien.png" %}" class="d-block w-100" alt="Wo-Chien">
+        <div class="carousel-caption d-none d-md-block">
+          <div class = "card-text bg-dark text-light opacity-75">
+            <h5>Wo-Chien</h5>
+            <li>Su nombre proviene de las palabras chinas 蝸 wō (caracol) y 簡 jiǎn (tablillas de bambú).</li>
+            <li>Su nombre japonés, Chionjen, procede de las palabras chinas 虫 chong (bicho) y 簡 jiǎn (tablillas de bambú).</li>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static "/img/chi-yu.png" %}" class="d-block w-100" alt="Chi-Yu">
+        <div class="carousel-caption d-none d-md-block">
+          <div class = "card-text bg-dark text-light opacity-75">
+            <h5>Chi-Yu</h5>
+              <p>Su nombre proviene de las palabras chinas 鲫魚 jìyú (pez dorado) y 玉 yù (jade).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+{% endblock  %}
