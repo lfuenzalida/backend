@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def inicio (request):
-    return render(request, 'views/inicio.html')
+    return render(request, 'views/index.html')
 def iniciales(request):
     return render(request, 'views/iniciales.html')
 def formas(request):
